@@ -1,0 +1,13 @@
+
+mimic jp_test.txt format, generate 30 phrases that is used at home
+save it as jp_atHome.txt
+
+mimic jp_test.txt format, generate 50 things at home, like, house, home, door, window, heat, air conditioner, ... etc
+save it as jp_atHouse.txt
+
+mimic jp_test.txt format, generate 50 idioms about life, working, ... etc
+save it as jp_idioms.txt
+
+仿照　jp_test.txt 格式，
+列出與 "開心的"，"高興的"，"興趣"，"笑容"，"感謝"，"期待"，"樂觀"，等詞相關連的短句，
+希望每個詞都各有 10 句。產生出來的文件存放在1 jp_happy.txt
