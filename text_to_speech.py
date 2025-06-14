@@ -93,8 +93,8 @@ def main():
             jp = AudioSegment.from_mp3(jp_file.name)
             tw = AudioSegment.from_mp3(tw_file.name)
 
-            # Speed up the Chinese audio by 1.5x
-            tw = tw.speedup(playback_speed=1.5)
+            # Speed up the Chinese audio by 1.4x
+            tw = tw.speedup(playback_speed=1.4)
 
             # Add segments to the list (reusing the Japanese audio segment)
             audio_segments.extend([beep, silence, jp, silence, tw, silence, jp, silence])
